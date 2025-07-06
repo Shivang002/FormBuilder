@@ -1,12 +1,38 @@
-# React + Vite
+# 🧩 Form Template Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and intuitive React application that lets users create customizable form templates with drag-and-drop sections and fields. It also includes a live preview of the form structure.
 
-Currently, two official plugins are available:
+![Form Template Builder Screenshot](https://your-screenshot-url-if-any)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔨 **Form Builder Interface**  
+  Add sections and dynamic fields with custom labels, types, help text, and validations.
+
+- 🔍 **Live Form Preview**  
+  Instantly see what your final form will look like as you build it.
+
+- 💾 **LocalStorage Persistence**  
+  Form templates are saved automatically and persist across sessions.
+
+- 🧠 **Field Types Supported**
+  - Short Answer (text)
+  - Paragraph
+  - Dropdown
+  - Radio buttons
+  - Yes/No (boolean)
+  - Upload/Image
+  - Custom Label Headings
+
+---
+
+## 🚀 Getting Started
+
+### 🛠️ Installation
+
+```bash
+git clone https://github.com/Shivang002/FormBuilder.git
+cd FormBuilder
+npm install
